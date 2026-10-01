@@ -17,7 +17,7 @@
 
 ## 🛡️ About Me
 
-Cybersecurity Analyst with 1.5+ years of experience in Threat Intelligence, Digital Risk Protection (DRP), Brand Intelligence, and OSINT.
+Cybersecurity Analyst with 2+ years of experience in Threat Intelligence, Digital Risk Protection (DRP), Brand Intelligence, and OSINT.
 
 Currently working at **CYFIRMA**, helping organizations identify and mitigate:
 
