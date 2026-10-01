@@ -3,7 +3,7 @@
 # Hi, I'm Sai Sanjay 👋
 ### Cyber Threat Intelligence & Security Automation Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-linkedin-handle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sai-sanjay-9049b9191/)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:saisanjay8555@gmail.com)
 [![Portfolio Focus](https://img.shields.io/badge/Focus-Threat_Intel_&_Automation-10b981?style=for-the-badge&logo=shield)](https://github.com/Saisanjay23)
 
