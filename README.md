@@ -17,18 +17,19 @@
 
 ## 🛡️ About Me
 
-Cybersecurity Analyst with 2+ years of experience in Threat Intelligence, Digital Risk Protection (DRP), Brand Intelligence, and OSINT.
+Cybersecurity Analyst with 2+ years of experience in Threat Intelligence, Adversary Infrastructure Mapping, Digital Risk Protection (DRP), Brand Intelligence, and OSINT.
 
 Currently working at **CYFIRMA**, helping organizations identify and mitigate:
 
-- Domain Impersonation
+- Threat Actor Campaigns & Infrastructure Clustering
+- Domain Impersonation & Typosquatting
 - Social Media Impersonation
 - Malicious Mobile Applications
 - Credential Leaks
 - Brand Abuse Campaigns
-- External Threat Exposure
+- External Attack Surface Exposure
 
-I build automation platforms that reduce manual investigation effort and improve analyst efficiency using Python, Playwright, FastAPI, and MongoDB.
+I build high-performance automation platforms and correlation engines that reduce manual investigation effort and turn raw telemetry into actionable intelligence graphs using Python, FastAPI, React Flow, Playwright, and MongoDB.
 
 ### 📈 Impact
 
@@ -47,11 +48,10 @@ I build automation platforms that reduce manual investigation effort and improve
 - Investigating domain, social media, and mobile application impersonation
 - Monitoring credential leaks and exposed data
 - Conducting OSINT investigations using FOFA, URLScan, Shodan, VirusTotal, and Censys
-- Building Python-based security automation solutions
+- Building Python-based security automation solutions and infrastructure mapping pipelines
 - Supporting Brand Intelligence and Threat Intelligence operations
 
 ### AiVariant (Excler)
-
 **Full Stack Java Developer Intern** | Jun 2024 – Sep 2024
 
 - Developed REST APIs using Java Spring Boot
@@ -63,6 +63,24 @@ I build automation platforms that reduce manual investigation effort and improve
 
 ## 🚀 Featured Projects
 
+### 🌐 Threat Infrastructure Mapper (TIM)
+
+Local-first adversary infrastructure mapping and graph pivoting platform. Designed to answer *"What infrastructure belongs to the same operation?"* rather than relying solely on static reputation lookups.
+
+**Key Features**
+- **Multi-Vector Digital Fingerprinting:** Extracts TLS SPKI hashes, favicon hashes (`mmh3`, `MD5`, `pHash`, `dHash`), analytics/pixel IDs (GA4, GTM, Meta Pixel, TikTok, Yandex), and DOM SimHash.
+- **Intelligent Correlation Engine:** Evidence-backed scoring with active CDN ASN dampening (Cloudflare, Akamai, AWS) and generic title filtering to eliminate false-positive clusters.
+- **Interactive Investigation Graph:** React Flow canvas with real-time node expansion, degree analysis, relationship filters, and cluster breakdown.
+- **Automated Reporting:** Executive-ready PDF (ReportLab) and HTML reports with TLP markings and GridFS artifact archiving.
+- **Production Rigor:** 148 passed tests (89% coverage), strict typing (`mypy`), and built-in Cloudflare tunnel sharing.
+
+**Tech Stack**  
+`Python` `FastAPI` `React Flow` `NetworkX` `MongoDB` `TypeScript` `Playwright`
+
+🔗 https://github.com/Saisanjay23/Threat-Infrastructure-Mapper
+
+---
+
 ### 🛡️ Brand Intelligence Platform
 
 Automated Digital Risk Protection platform for detecting:
@@ -72,28 +90,10 @@ Automated Digital Risk Protection platform for detecting:
 - Brand Abuse
 - Rogue Assets
 
-**Tech Stack**
-
+**Tech Stack**  
 `Python` `Playwright` `Scrapy` `MongoDB` `Streamlit`
 
 🔗 https://github.com/Saisanjay23/Brand-Intelligence-ultimate
-
----
-
-### 🌐 Social Media Monitoring & Sentiment Analysis Platform
-
-Platform designed to collect and analyze social media conversations to identify reputational risks and emerging threats.
-
-**Features**
-
-- Multi-platform Monitoring
-- Sentiment Analysis
-- Brand Risk Detection
-- Automated Data Collection
-
-**Tech Stack**
-
-`Python` `Playwright` `MongoDB`
 
 ---
 
@@ -102,17 +102,30 @@ Platform designed to collect and analyze social media conversations to identify 
 Automated validation system for large-scale verification of reported URLs.
 
 **Features**
-
 - Bulk URL Validation
 - Live / Takedown Detection
 - Automated Reporting
 - Reduced Manual Verification Effort
 
-**Tech Stack**
-
+**Tech Stack**  
 `Python` `FastAPI` `Playwright`
 
 🔗 https://github.com/Saisanjay23/URLS-validator
+
+---
+
+### 🌐 Social Media Monitoring & Sentiment Analysis Platform
+
+Platform designed to collect and analyze social media conversations to identify reputational risks and emerging threats.
+
+**Features**
+- Multi-platform Monitoring
+- Sentiment Analysis
+- Brand Risk Detection
+- Automated Data Collection
+
+**Tech Stack**  
+`Python` `Playwright` `MongoDB`
 
 ---
 
@@ -121,7 +134,6 @@ Automated validation system for large-scale verification of reported URLs.
 Contributed to an internal platform that maps and monitors an organization's external attack surface.
 
 **Focus Areas**
-
 - Asset Discovery
 - Infrastructure Mapping
 - External Exposure Monitoring
@@ -131,35 +143,28 @@ Contributed to an internal platform that maps and monitors an organization's ext
 
 ## 🎯 Areas of Expertise
 
-### Threat Intelligence
+### Threat Intelligence & Research
+- Threat Actor Attribution & Infrastructure Mapping
+- Heuristic Correlation & Clustering
+- Brand Intelligence & Digital Risk Protection (DRP)
+- Open Source Intelligence (OSINT) & SOCMINT
+- Passive DNS, WHOIS & Certificate Transparency (crt.sh)
+- Phishing Kit & Deobfuscation Analysis
+- Threat Landscape Monitoring & Credential Leaks
 
-- Threat Intelligence
-- Brand Intelligence
-- Digital Risk Protection (DRP)
-- Open Source Intelligence (OSINT)
-- Social Media Intelligence (SOCMINT)
-- Threat Landscape Monitoring
-- Credential Leak Monitoring
-- Domain Intelligence
-- Infrastructure Research
+### Security Operations & Analysis
+- Threat Investigation & Triage
+- IOC Analysis & Heuristic Pivoting
+- Domain & Typosquat Monitoring
+- External Attack Surface Management (EASM)
+- Digital Footprint & Rogue Asset Analysis
 
-### Security Operations
-
-- Threat Investigation
-- IOC Analysis
-- Domain Monitoring
-- Risk Assessment
-- External Threat Monitoring
-- Digital Footprint Analysis
-
-### Security Automation
-
-- Python Automation
-- Data Collection Pipelines
-- Monitoring Systems
-- Workflow Automation
-- Intelligence Enrichment
-- Analyst Tool Development
+### Security Automation & Engineering
+- Async Data Collection & Scraping Pipelines
+- Graph Analytics & Relationship Modeling (NetworkX)
+- Automated TLP Intelligence Reporting
+- Headless Browser Stealth Automation (Playwright)
+- REST API & Micro-tool Development
 
 ---
 
@@ -168,26 +173,32 @@ Contributed to an internal platform that maps and monitors an organization's ext
 ### Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
 
-### Frameworks & Tools
+### Frameworks, Libraries & Tools
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React_Flow-Graph-FF0072?style=flat-square)
+![NetworkX](https://img.shields.io/badge/NetworkX-00599C?style=flat-square&logo=networkx&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-### Security Platforms
+### Security Platforms & OSINT Tools
 
 - FOFA
 - URLScan.io
 - Shodan
 - Censys
 - VirusTotal
+- GreyNoise
+- AbuseIPDB
+- crt.sh
 - dnstwist
 
 ---
@@ -216,12 +227,11 @@ Contributed to an internal platform that maps and monitors an organization's ext
 
 ## 📚 Currently Learning
 
-- Advanced Threat Intelligence
-- Threat Hunting
-- Detection Engineering
-- AI Security
-- Security Automation at Scale
-- Cloud Security
+- Advanced Threat Intelligence & Campaign Tracking
+- Threat Hunting & Detection Engineering
+- Graph Data Modeling & Cyber Threat Clustering
+- AI Security & Automated Triage
+- Cloud Security & Attack Surface Hardening
 
 ---
 
@@ -239,17 +249,12 @@ Contributed to an internal platform that maps and monitors an organization's ext
 
 ## 🤝 Connect With Me
 
-💼 LinkedIn  
-https://www.linkedin.com/in/sai-sanjay-9049b9191/
-
-📧 Email  
-saisanjay8555@gmail.com
-
-🐙 GitHub  
-https://github.com/Saisanjay23
+💼 **LinkedIn:** https://www.linkedin.com/in/sai-sanjay-9049b9191/  
+📧 **Email:** saisanjay8555@gmail.com  
+🐙 **GitHub:** https://github.com/Saisanjay23  
 
 ---
 
 ### Career Interests
 
-**Threat Intelligence • Threat Hunting • Security Automation • Detection Engineering • AI Security • Digital Risk Protection**
+**Threat Intelligence • Threat Hunting • Adversary Infrastructure Mapping • Security Automation • Detection Engineering • Digital Risk Protection**
